@@ -1,0 +1,15 @@
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\bin\Debug\net6.0\DemoDictionary.exe
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\bin\Debug\net6.0\DemoDictionary.deps.json
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\bin\Debug\net6.0\DemoDictionary.runtimeconfig.json
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\bin\Debug\net6.0\DemoDictionary.dll
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\bin\Debug\net6.0\DemoDictionary.pdb
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\DemoDictionary.csproj.AssemblyReference.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\DemoDictionary.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\DemoDictionary.AssemblyInfoInputs.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\DemoDictionary.AssemblyInfo.cs
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\DemoDictionary.csproj.CoreCompileInputs.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\DemoDictionary.dll
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\refint\DemoDictionary.dll
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\DemoDictionary.pdb
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\DemoDictionary.genruntimeconfig.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\DemoDictionary\obj\Debug\net6.0\ref\DemoDictionary.dll

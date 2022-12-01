@@ -1,0 +1,6 @@
+﻿10|Hung|20 Dec 2000|SE|7.6
+2|Hang|11 Jan 1999|IA|gido|6.4
+3|Nam|12 Sep 2001|SE|7.c
+4|Huong|12 Sep 2001|SE|7.6
+1|An|12 Sep 2001|SE|7.0
+3|Bui Lan|12 Sep 2001|SE|5.6

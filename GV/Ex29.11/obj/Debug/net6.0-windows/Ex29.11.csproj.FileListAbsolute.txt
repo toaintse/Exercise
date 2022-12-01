@@ -1,0 +1,17 @@
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\bin\Debug\net6.0-windows\Ex29.11.exe
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\bin\Debug\net6.0-windows\Ex29.11.deps.json
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\bin\Debug\net6.0-windows\Ex29.11.runtimeconfig.json
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\bin\Debug\net6.0-windows\Ex29.11.dll
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\bin\Debug\net6.0-windows\Ex29.11.pdb
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.csproj.AssemblyReference.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29._11.Form1.resources
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.csproj.GenerateResource.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.AssemblyInfoInputs.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.AssemblyInfo.cs
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.csproj.CoreCompileInputs.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.dll
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\refint\Ex29.11.dll
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.pdb
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\Ex29.11.genruntimeconfig.cache
+D:\CodeDemo\PRN211\PRN211.MFall22\Ex29.11\obj\Debug\net6.0-windows\ref\Ex29.11.dll

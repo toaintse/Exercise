@@ -1,0 +1,17 @@
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.csproj.AssemblyReference.cache
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.Form1.resources
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.csproj.GenerateResource.cache
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.AssemblyInfoInputs.cache
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.AssemblyInfo.cs
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.csproj.CoreCompileInputs.cache
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\bin\Debug\net6.0-windows\Employee.exe
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\bin\Debug\net6.0-windows\Employee.deps.json
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\bin\Debug\net6.0-windows\Employee.runtimeconfig.json
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\bin\Debug\net6.0-windows\Employee.dll
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\bin\Debug\net6.0-windows\Employee.pdb
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.dll
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\refint\Employee.dll
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.pdb
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\Employee.genruntimeconfig.cache
+C:\Users\ToaiNT\Desktop\Block5\Student\Employee\obj\Debug\net6.0-windows\ref\Employee.dll
