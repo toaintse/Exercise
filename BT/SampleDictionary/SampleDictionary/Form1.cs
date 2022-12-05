@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using SampleDictionary.Models;
 using System.Diagnostics.CodeAnalysis;
-using Calculator;
 
 namespace SampleDictionary
 {
@@ -145,9 +144,6 @@ namespace SampleDictionary
 
         private void btnCalculator_Click(object sender, EventArgs e)
         {
-            var myForm = new Calculator.Form1();
-            myForm.Show();
-            this.Hide();
         }
 
         //void Clear()
