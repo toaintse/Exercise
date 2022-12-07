@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+    <body>
+        <h1>
+            Detail of product:
+        </h1>
+        <div>
+            Something about product:
+            <div>
+            Id: @ViewData["id"]
+            Name: @ViewData["Name"]
+            
+            </div>
+            <div>
+                Id: @ViewBag.Id
+                Name: @ViewBag.Name
+
+            </div>
+            <div>
+                @if (@ViewBag.CurProduct == null)
+                {
+                    <div>San pham yeu cau khong ton tai.</div>
+                }
+                else
+                {
+                    <div>Product's info</div>
+                    <div>Id: @ViewBag.CurProduct.ProductId </div>
+                    <div>ProductName: @ViewBag.CurProduct.ProductName </div>
+                    <div>UnitPrice: @ViewBag.CurProduct.UnitPrice </div>
+                }                
+            </div>
+        </div>
+    </body>
+</html>
