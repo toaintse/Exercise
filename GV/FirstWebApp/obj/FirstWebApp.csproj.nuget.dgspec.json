@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodeDemo\\PRN211\\PRN211.MFall22\\FirstWebApp\\FirstWebApp.csproj": {}
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\FirstWebApp\\FirstWebApp.csproj": {}
   },
   "projects": {
-    "D:\\CodeDemo\\PRN211\\PRN211.MFall22\\FirstWebApp\\FirstWebApp.csproj": {
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\FirstWebApp\\FirstWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeDemo\\PRN211\\PRN211.MFall22\\FirstWebApp\\FirstWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\FirstWebApp\\FirstWebApp.csproj",
         "projectName": "FirstWebApp",
-        "projectPath": "D:\\CodeDemo\\PRN211\\PRN211.MFall22\\FirstWebApp\\FirstWebApp.csproj",
-        "packagesPath": "C:\\Users\\lephu\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeDemo\\PRN211\\PRN211.MFall22\\FirstWebApp\\obj\\",
+        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\FirstWebApp\\FirstWebApp.csproj",
+        "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\FirstWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lephu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
