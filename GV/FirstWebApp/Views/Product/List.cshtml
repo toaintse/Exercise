@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using FirstWebApp.Models
+@model List<Product>
+
+<div>
+    <a href="/Product/Create">Create new product</a>
+    @if (Model.Count == 0)
+    {
+        <div>Category yeu cau khong co san pham nao</div>
+    }
+    else
+    {
+        <div>Danh sach san pham:</div>
+        <table>
+            <tr>
+                <th>ProductId</th>
+                <th>ProductName</th>
+                <th>CategoryName</th>
+                <th>Supplier</th>
+                <th>UnitPrice</th>
+                <th>Action</th>
+                <th>Action</th>
+            </tr>
+            
+            @foreach (Product p in Model)
+            {
+                <tr>
+                    <td>@p.ProductId</td>
+                    <td>@p.ProductName</td>
+                    <td>@p.Category.CategoryName</td>
+                    <td>@p.Supplier.CompanyName</td>
+                    <td>@p.UnitPrice</td>
+                    <td><a href="/Product/Create/@p.ProductId">Edit</a></td>
+                    <td><a href="/Product/DoDelete/@p.ProductId/@ViewBag.CurCategory">Delete</a></td>
+                </tr>
+            }
+        </table>
+        
+    }
+
+</div>

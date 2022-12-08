@@ -12,8 +12,12 @@ internal class Program
         //Routing
         app.MapControllerRoute(
             name: "default",
-            pattern: "/{controller=Product}/{action=Detail}/{id=1}/{name=ABC}"
+            pattern: "/{controller=Product}/{action=Detail}/{id=0}"
             );
+        app.MapControllerRoute(
+           name: "default1",
+           pattern: "/{controller=Product}/{action=Detail}/{id=0}/{cid}"
+           );
 
         app.Run();
     }

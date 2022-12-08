@@ -5,6 +5,11 @@ namespace FirstWebApp.Models
 {
     public partial class Product
     {
+        public Product()
+        {
+            OrderDetails = new HashSet<OrderDetail>();
+        }
+
         public int ProductId { get; set; }
         public string ProductName { get; set; } = null!;
         public int? SupplierId { get; set; }
@@ -18,5 +23,6 @@ namespace FirstWebApp.Models
 
         public virtual Category? Category { get; set; }
         public virtual Supplier? Supplier { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

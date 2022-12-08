@@ -17,6 +17,7 @@ namespace FirstWebApp.Models
         }
 
         public virtual DbSet<Category> Categories { get; set; } = null!;
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; } = null!;
         public virtual DbSet<Product> Products { get; set; } = null!;
         public virtual DbSet<Supplier> Suppliers { get; set; } = null!;
 
@@ -25,8 +26,7 @@ namespace FirstWebApp.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-                optionsBuilder.UseSqlServer(config.GetConnectionString("NorthwindConStr"));
+                optionsBuilder.UseSqlServer("server=localhost;database=Northwind;user=sa;password=123456;TrustServerCertificate=true");
             }
         }
 
@@ -43,6 +43,36 @@ namespace FirstWebApp.Models
                 entity.Property(e => e.Description).HasColumnType("ntext");
 
                 entity.Property(e => e.Picture).HasColumnType("image");
+            });
+
+            modelBuilder.Entity<OrderDetail>(entity =>
+            {
+                entity.HasKey(e => new { e.OrderId, e.ProductId })
+                    .HasName("PK_Order_Details");
+
+                entity.ToTable("Order Details");
+
+                entity.HasIndex(e => e.OrderId, "OrderID");
+
+                entity.HasIndex(e => e.OrderId, "OrdersOrder_Details");
+
+                entity.HasIndex(e => e.ProductId, "ProductID");
+
+                entity.HasIndex(e => e.ProductId, "ProductsOrder_Details");
+
+                entity.Property(e => e.OrderId).HasColumnName("OrderID");
+
+                entity.Property(e => e.ProductId).HasColumnName("ProductID");
+
+                entity.Property(e => e.Quantity).HasDefaultValueSql("((1))");
+
+                entity.Property(e => e.UnitPrice).HasColumnType("money");
+
+                entity.HasOne(d => d.Product)
+                    .WithMany(p => p.OrderDetails)
+                    .HasForeignKey(d => d.ProductId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Order_Details_Products");
             });
 
             modelBuilder.Entity<Product>(entity =>
