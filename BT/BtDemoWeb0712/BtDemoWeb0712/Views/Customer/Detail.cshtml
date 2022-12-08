@@ -10,28 +10,19 @@
         </h1>
         <div>
             Something about customer:
-        @*<div>
-            Id: @ViewData["id"]
-            Name: @ViewData["Name"]
-
-            </div>
+            
             <div>
-                Id: @ViewBag.Id
-                Name: @ViewBag.Name
-
-            </div>
-            <div>*@
-        @if (@ViewBag.CurCustomer == null)
-        {
-                            <div>Customer yeu cau khong ton tai.</div>
-        }
-        else
-        {
-                            <div>Customer's info</div>
-                            <div>Id: @ViewBag.Customer.CustomerId </div>
-                            <div>CompanyName: @ViewBag.CurCustomer.CompanyName </div>
-                            <div>ContactName: @ViewBag.CurCustomder.ContactName </div>
-        }                
+            @if (@ViewBag.CurCustomer == null)
+            {
+                        <div>Customer yeu cau khong ton tai.</div>
+            }
+            else
+            {
+                        <div>Customer's info</div>
+                        <div>CustomerId: @ViewBag.CurCustomer.CustomerId </div>
+                        <div>CompanyName: @ViewBag.CurCustomer.CompanyName </div>
+                        <div>ContactName: @ViewBag.CurCustomer.ContactName </div>
+            }                
             </div>
         </div>
     </body>
