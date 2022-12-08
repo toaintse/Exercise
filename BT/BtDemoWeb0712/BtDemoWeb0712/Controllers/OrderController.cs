@@ -31,6 +31,24 @@ namespace BtDemoWeb0712.Controllers
             return View();
         }
 
+        public IActionResult Edit(int id, int cid)
+        {
+            Manager manager = new Manager();
+            OrderDetail orderDetail = manager.GetOrderDetail(id, cid);
+            ViewBag.OrderDetail = orderDetail;
+            ViewBag.productid = id;
+            ViewBag.orderid = cid;
+            return View();
+        }
+
+        public IActionResult DoEdit(int id, int cid,int quantity)
+        {
+            Manager manager = new Manager();
+            manager.EditQuantity(id, cid, quantity);
+            
+            return RedirectToAction("Detail");
+        }
+
         public IActionResult DoDelete(int id, int cid)
         {
             Manager manager = new Manager();

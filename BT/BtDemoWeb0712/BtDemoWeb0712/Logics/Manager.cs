@@ -1,5 +1,6 @@
 ﻿using BtDemoWeb0712.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
 
 namespace BtDemoWeb0712.Logics
 {
@@ -19,6 +20,11 @@ namespace BtDemoWeb0712.Logics
         public Order GetOrder(int? orderId)
         {
             return context.Orders.Include(x => x.OrderDetails).FirstOrDefault(x => x.OrderId == orderId);
+        }
+
+        public OrderDetail GetOrderDetail(int? productId, int? orderId)
+        {
+            return context.OrderDetails.Include(x => x.Order).FirstOrDefault(x => x.OrderId == orderId && x.ProductId == productId);
         }
 
         public List<OrderDetail> GetOrderDetails (int? orderId)
@@ -45,6 +51,19 @@ namespace BtDemoWeb0712.Logics
                     .ToList();
             else return list.OrderByDescending(x => x.ProductId).ToList();
 
+        }
+
+        public void EditQuantity(int? productId, int? orderId, int? quantity)
+        {
+            OrderDetail o = context.OrderDetails.Include(x => x.Order).FirstOrDefault(x => x.OrderId == orderId && x.ProductId == productId);
+            if (o != null)
+            {
+                o.OrderId = o.OrderId;
+                o.ProductId = o.ProductId;
+                o.Quantity = (short)quantity;
+                o.UnitPrice = o.UnitPrice;
+                context.SaveChanges();
+            }
         }
 
         public void DeleteProduct(int productId)

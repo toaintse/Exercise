@@ -94,7 +94,7 @@
                 <td>@item.Product.ProductName</td>
                 <td>@item.Quantity</td>
                 <td>@item.UnitPrice</td>
-                <td><input type="button" value="Edit"> </td>
+                <td><a href="/Order/Edit/@item.ProductId/@item.OrderId"><input type="button" value="Edit"> </td>
                 <td><a href="/Order/DoDelete/@item.ProductId/@item.OrderId"><input type="button" value="Remove"/></a> </td>
             </tr>
         }
