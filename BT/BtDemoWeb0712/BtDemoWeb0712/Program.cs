@@ -5,7 +5,7 @@ var app = builder.Build();
 
 app.MapControllerRoute(
             name: "default",
-            pattern: "/{controller}/{action}/{id}"
+            pattern: "/{controller=Order}/{action=Detail}/{id=10248}"
             );
 
 
