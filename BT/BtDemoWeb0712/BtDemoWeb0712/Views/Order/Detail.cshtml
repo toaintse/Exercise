@@ -1,8 +1,8 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@{
-}
+@using BtDemoWeb0712.Models
+
 <html>
     <body>
         <h1>
@@ -19,12 +19,87 @@
             else
             {
                         <div>Order's info</div>
-                        <div>Id: @ViewBag.CurOrder.OrderId </div>
-                        <div>OrderDate: @ViewBag.CurOrder.OrderDate </div>
-                        <div>Freight: @ViewBag.CurOrder.Freight </div>
+                        <div>OrderId: @ViewBag.CurOrder.OrderId </div>
+                        <div>CustomerId: @ViewBag.CurOrder.CustomerId </div>
+                        <div>EmployeeId: @ViewBag.CurOrder.EmployeeId </div>
             }                
             </div>
+        <table border="1">
+            <tr style="border-bottom: 1px solid black ;">
+                <th>OrderId</th>
+                <th>CustomerId</th>
+                <th>EmployeeId</th>
+                <th>OrderDate</th>
+                <th>RequiredDate</th>
+                <th>ShipVia</th>
+                <th>Freight</th>
+                <th>ShipName</th>
+                <th>ShipAddress</th>
+                <th>ShipCity</th>
+                <th>ShipRegion</th>
+                <th>ShipPostalCode</th>
+                <th>ShipCountry</th>
+                <th>Product</th>
+            </tr>
+            
+                
+                @{
+                    int count = 0;
+                }
+                @foreach (OrderDetail item in ViewBag.OrderList)
+                 {
+                     @if(count == 0){
+                    <tr>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.OrderId</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.CustomerId</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.EmployeeId</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.OrderDate</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.RequiredDate</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.ShipVia</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.Freight</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.ShipName</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.ShipAddress</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.ShipCity</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.ShipRegion</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.ShipPostalCode</td>
+                        <td rowspan="@ViewBag.OrderList.Count">@ViewBag.CurOrder.ShipCountry</td>
+                        <td>@item.Product.ProductName</td>
+                    </tr>
+                        {
+                            count++;
+                        }
+                     }else{
+                    <tr><td>@item.Product.ProductName</td></tr>
+                     }
+                    
+                }
+            
+            <tr></tr>
+            </table>
         </div>
-        <>
+    <h1>
+        List of Product
+    </h1>
+    <table border="1">
+        <tr>
+            <th>ProductID</th>
+            <th>ProductName</th>
+            <th>Quantity</th>
+            <th>UnitPrice</th>
+        </tr>
+        @foreach (OrderDetail item in ViewBag.OrderList)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.Product.ProductName</td>
+                <td>@item.Quantity</td>
+                <td>@item.UnitPrice</td>
+                <td><input type="button" value="Edit"> </td>
+                <td><a href="/Order/DoDelete/@item.ProductId/@item.OrderId"><input type="button" value="Remove"/></a> </td>
+            </tr>
+        }
+        
+    </table>
+        
     </body>
 </html>

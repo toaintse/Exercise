@@ -52,8 +52,6 @@ namespace FirstWebApp.Logics
                 p.Discontinued = product.Discontinued;
                 context.SaveChanges();
             }
-            
-
         }
 
         public void DeleteProduct(int productId)
