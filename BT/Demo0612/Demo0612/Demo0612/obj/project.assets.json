@@ -2339,20 +2339,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ToaiNT\\.nuget\\packages\\": {}
+    "C:\\Users\\thanh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\Demo0612\\Demo0612\\Demo0612\\Demo0612.csproj",
+      "projectUniqueName": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\BT\\Demo0612\\Demo0612\\Demo0612\\Demo0612.csproj",
       "projectName": "Demo0612",
-      "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\Demo0612\\Demo0612\\Demo0612\\Demo0612.csproj",
-      "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\Demo0612\\Demo0612\\Demo0612\\obj\\",
+      "projectPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\BT\\Demo0612\\Demo0612\\Demo0612\\Demo0612.csproj",
+      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\BT\\Demo0612\\Demo0612\\Demo0612\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
@@ -2411,7 +2419,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
