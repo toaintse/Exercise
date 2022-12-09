@@ -31,6 +31,33 @@ namespace BtDemoWeb0712.Controllers
             return View();
         }
 
+        public IActionResult Create(int id)
+        {
+            Manager manager = new Manager();
+            ViewBag.Categories = manager.GetCategories();
+            ViewBag.Suppliers = manager.GetSuppliers();
+            if (id == 0)
+            {
+                return View();
+            }
+            else
+            {
+                Product p = manager.GetProduct(id);
+                return View(p);
+            }
+
+
+        }
+
+        public IActionResult DoCreate(Product product)
+        {
+            Manager manager = new Manager();
+            if (product.ProductId == 0)
+                manager.InsertProduct(product);
+            else manager.EditProduct(product);
+            return RedirectToAction("Detail");
+        }
+
         public IActionResult Edit(int id, int cid)
         {
             Manager manager = new Manager();

@@ -1,0 +1,49 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using BtDemoWeb0712.Models
+@model Product
+
+<div>
+    <form action="/Order/DoCreate" method="post">
+        <div>
+            ProductName
+            <input type="text" name="product.productname" value="@(Model==null?"":Model.ProductName)" />
+        </div>
+        <div>
+            Category
+            <select name="product.categoryid">
+                @foreach (Category c in ViewBag.Categories)
+                {
+                        <option value="@c.CategoryId" @((Model != null && Model.CategoryId == c.CategoryId)? "selected":"")>
+                        @c.CategoryName
+                        </option>
+                }
+            </select>
+        </div>
+        <div>
+            Supplier
+            <select name="product.supplierid">
+                @foreach (Supplier c in ViewBag.Suppliers)
+                {
+                        <option value="@c.SupplierId"@((Model != null && Model.SupplierId == c.SupplierId)? "selected":"")>
+                        @c.CompanyName
+                        </option>
+                }
+            </select>
+        </div>
+        <div>
+            UnitPrice <input type="number" name="product.unitprice" value="@(Model==null?"":Model.UnitPrice)" />
+        </div>
+        <div>
+            <input type="checkbox" name="product.discontinued" @((Model != null && Model.Discontinued)? "checked":"") />Discontinued
+        </div>
+        <div>
+            <input type="Submit" value="Create New"/>
+        </div>
+        <div>
+            <input type="hidden" name="product.productid" value="@(Model==null?0:Model.ProductId)" />
+        </div>
+    </form>
+
+</div>

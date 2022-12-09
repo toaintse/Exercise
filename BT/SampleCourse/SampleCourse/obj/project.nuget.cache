@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jonBJ8Sqld9Pdq6h7PkWNfL0W7lnlwFa39X9zZO7oJ8LXQkLpyfxnle+PoKVBgcNdOPydUujWGwdnpOzcPG/BA==",
+  "dgSpecHash": "+rcvhQS+t8l/2bum81Pb4Bu+w1kVgGK9PkQGaLG0DrWiEwNARMWNBl6ITq3unw3gGiSmOxpK1VCg6S58PR3rQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\SampleCourse\\SampleCourse\\SampleCourse.csproj",
+  "projectFilePath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\SampleCourse\\SampleCourse\\SampleCourse.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ToaiNT\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ToaiNT\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

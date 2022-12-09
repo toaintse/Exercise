@@ -2344,11 +2344,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\SampleCourse\\SampleCourse\\SampleCourse.csproj",
+      "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\SampleCourse\\SampleCourse\\SampleCourse.csproj",
       "projectName": "SampleCourse",
-      "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\SampleCourse\\SampleCourse\\SampleCourse.csproj",
+      "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\SampleCourse\\SampleCourse\\SampleCourse.csproj",
       "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\SampleCourse\\SampleCourse\\obj\\",
+      "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\SampleCourse\\SampleCourse\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",

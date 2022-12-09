@@ -12,6 +12,35 @@ namespace BtDemoWeb0712.Logics
             context = new NorthwindContext();
         }
 
+        public Product GetProduct(int productId)
+        {
+            
+            return context.Products
+                .Include(x => x.Category)
+                .Include(x => x.Supplier)
+                .FirstOrDefault(x => x.ProductId == productId);
+        }
+
+        public void InsertProduct(Product product)
+        {
+            context.Products.Add(product);
+            context.SaveChanges();
+        }
+
+        public void EditProduct(Product product)
+        {
+            Product p = context.Products.FirstOrDefault(p => p.ProductId == product.ProductId);
+            if (p != null)
+            {
+                p.CategoryId = product.CategoryId;
+                p.SupplierId = product.SupplierId;
+                p.ProductName = product.ProductName;
+                p.UnitPrice = product.UnitPrice;
+                p.Discontinued = product.Discontinued;
+                context.SaveChanges();
+            }
+        }
+
         public Customer GetCustomer(string customerId)
         {
             return context.Customers.FirstOrDefault(x => x.CustomerId.Equals(customerId));
@@ -56,27 +85,26 @@ namespace BtDemoWeb0712.Logics
         public void EditQuantity(int? productId, int? orderId, int? quantity)
         {
             OrderDetail o = context.OrderDetails.Include(x => x.Order).FirstOrDefault(x => x.OrderId == orderId && x.ProductId == productId);
-            if (o != null)
+            if(quantity > 0)
             {
-                o.OrderId = o.OrderId;
-                o.ProductId = o.ProductId;
-                o.Quantity = (short)quantity;
-                o.UnitPrice = o.UnitPrice;
-                context.SaveChanges();
+                if (o != null)
+                {
+                    o.OrderId = o.OrderId;
+                    o.ProductId = o.ProductId;
+                    o.Quantity = (short)quantity;
+                    o.UnitPrice = o.UnitPrice;
+                    context.SaveChanges();
+                }
             }
+            else if(quantity == 0)
+            {
+                RemoveQuantity((int)productId, (int)orderId);
+            }else if(quantity < 0){
+
+            }
+            
         }
 
-        public void DeleteProduct(int productId)
-        {
-            OrderDetail p = context.OrderDetails.FirstOrDefault(x => x.ProductId == productId);
-            if (p != null)
-            {
-                OrderDetail orderDetails = context.OrderDetails.FirstOrDefault(x => x.ProductId == productId);
-                context.OrderDetails.RemoveRange(orderDetails);
-                //context.Products.Remove(p);
-                context.SaveChanges();
-            }
-        }
 
         public void RemoveQuantity(int pId,int oId)
         {

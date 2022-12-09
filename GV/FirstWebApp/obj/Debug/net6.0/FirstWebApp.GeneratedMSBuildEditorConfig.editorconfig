@@ -8,29 +8,29 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstWebApp
 build_property.RootNamespace = FirstWebApp
-build_property.ProjectDir = C:\Users\thanh\OneDrive\Desktop\Exercise\GV\FirstWebApp\
+build_property.ProjectDir = C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\GV\FirstWebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\thanh\OneDrive\Desktop\Exercise\GV\FirstWebApp
+build_property.MSBuildProjectDirectory = C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\GV\FirstWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/thanh/OneDrive/Desktop/Exercise/GV/FirstWebApp/Views/Norule.cshtml]
+[C:/Users/ToaiNT/Desktop/Block5/Git/Exercise/GV/FirstWebApp/Views/Norule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ydWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thanh/OneDrive/Desktop/Exercise/GV/FirstWebApp/Views/Product/Create.cshtml]
+[C:/Users/ToaiNT/Desktop/Block5/Git/Exercise/GV/FirstWebApp/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thanh/OneDrive/Desktop/Exercise/GV/FirstWebApp/Views/Product/Detail.cshtml]
+[C:/Users/ToaiNT/Desktop/Block5/Git/Exercise/GV/FirstWebApp/Views/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thanh/OneDrive/Desktop/Exercise/GV/FirstWebApp/Views/Product/List.cshtml]
+[C:/Users/ToaiNT/Desktop/Block5/Git/Exercise/GV/FirstWebApp/Views/Product/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thanh/OneDrive/Desktop/Exercise/GV/FirstWebApp/Views/Product/ViewProduct.cshtml]
+[C:/Users/ToaiNT/Desktop/Block5/Git/Exercise/GV/FirstWebApp/Views/Product/ViewProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxWaWV3UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -54,3 +54,13 @@ C:\Users\ToaiNT\Desktop\Block5\BT\SampleCourse\SampleCourse\bin\Debug\net6.0-win
 C:\Users\ToaiNT\Desktop\Block5\BT\SampleCourse\SampleCourse\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\ToaiNT\Desktop\Block5\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.csproj.CopyComplete
 C:\Users\ToaiNT\Desktop\Block5\BT\SampleCourse\SampleCourse\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.csproj.AssemblyReference.cache
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.Form1.resources
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.csproj.GenerateResource.cache
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.AssemblyInfoInputs.cache
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.AssemblyInfo.cs
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.csproj.CoreCompileInputs.cache
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.dll
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\refint\SampleCourse.dll
+C:\Users\ToaiNT\Desktop\Block5\Git\Exercise\BT\SampleCourse\SampleCourse\obj\Debug\net6.0-windows\SampleCourse.pdb
