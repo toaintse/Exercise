@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@using BT1212.Models
+
+<div>
+    <form action="/Employee/List" method="get">
+        <div>
+            BirthYear
+            <select name="birthYear">
+                <option value="0" @((0 == ViewBag.CurBirthYear)? "selected":"")>All</option>
+                    @foreach (var b in ViewBag.BirthYears)
+                {
+                    <option value="@b" @((b == ViewBag.CurBirthYear)? "selected":"")>
+                        @b
+                    </option>
+                }
+                
+            </select>
+        </div>
+        <div>
+            Country
+            <select name="country">
+                <option value="" @(("".Equals(ViewBag.CurCountry)? "selected":"")) >All</option>
+                    @foreach (var b in ViewBag.Counstries)
+                    {
+                    <option value="@b" @((b.Equals(ViewBag.CurCountry)? "selected":""))>
+                            @b
+                    </option>
+                    }
+
+            </select>
+        </div>
+        <div>
+            Report To
+            <select name="reportTo">
+                <option value="0" @((0 == ViewBag.CurReportTo)? "selected":"")>All</option>
+                @foreach (Employee b in ViewBag.ReportTo)
+                    {
+                    <option value="@b.EmployeeId" @((b.EmployeeId == ViewBag.CurReportTo)? "selected":"")>
+                            @b.EmployeeId
+                    </option>
+                    }
+
+            </select>
+        </div>
+
+        <input type="submit" value="Submit"/> 
+    </form>
+
+    <a href="/Employee/Create"><input type="button" value="Add new Employee" /></a>
+    
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Birthdate</th>
+        </tr>
+        @foreach (Employee e in ViewBag.Employees)
+        {
+                <tr>
+                    <td>@e.EmployeeId</td>
+                    <td>@e.FirstName</td>
+                    <td>@e.LastName</td>
+                <td>@(Convert.ToDateTime(e.BirthDate).ToShortDateString())</td>
+                <td><a href="/Employee/DoDelete/@e.EmployeeId"><input type="button" value="Delete" /></a></td>
+                </tr>
+            }
+            
+        
+    </table>
+</div>
+
