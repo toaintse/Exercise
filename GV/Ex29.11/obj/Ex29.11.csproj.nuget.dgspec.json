@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ToaiNT\\Desktop\\Ex29.11\\Ex29.11.csproj": {}
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\Ex29.11\\Ex29.11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ToaiNT\\Desktop\\Ex29.11\\Ex29.11.csproj": {
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\Ex29.11\\Ex29.11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Ex29.11\\Ex29.11.csproj",
+        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\Ex29.11\\Ex29.11.csproj",
         "projectName": "Ex29.11",
-        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Ex29.11\\Ex29.11.csproj",
+        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\Ex29.11\\Ex29.11.csproj",
         "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Ex29.11\\obj\\",
+        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\Ex29.11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",

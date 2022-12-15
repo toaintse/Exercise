@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\DemoInstructor\\DemoInstructor\\DemoInstructor.csproj": {}
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\DemoInstructor\\DemoInstructor\\DemoInstructor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\DemoInstructor\\DemoInstructor\\DemoInstructor.csproj": {
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\DemoInstructor\\DemoInstructor\\DemoInstructor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\DemoInstructor\\DemoInstructor\\DemoInstructor.csproj",
+        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\DemoInstructor\\DemoInstructor\\DemoInstructor.csproj",
         "projectName": "DemoInstructor",
-        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\DemoInstructor\\DemoInstructor\\DemoInstructor.csproj",
+        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\DemoInstructor\\DemoInstructor\\DemoInstructor.csproj",
         "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\BT\\DemoInstructor\\DemoInstructor\\obj\\",
+        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\DemoInstructor\\DemoInstructor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",

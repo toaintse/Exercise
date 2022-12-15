@@ -2422,19 +2422,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thanh\\.nuget\\packages\\": {}
+    "C:\\Users\\ToaiNT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\GV\\DemoListAndFilter\\DemoListAndFilter.csproj",
+      "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\DemoListAndFilter\\DemoListAndFilter.csproj",
       "projectName": "DemoListAndFilter",
-      "projectPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\GV\\DemoListAndFilter\\DemoListAndFilter.csproj",
-      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\GV\\DemoListAndFilter\\obj\\",
+      "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\DemoListAndFilter\\DemoListAndFilter.csproj",
+      "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\DemoListAndFilter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2494,7 +2494,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

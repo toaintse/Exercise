@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ToaiNT\\Desktop\\Block5\\PRN211.MFall22\\StudentManager\\StudentManager.csproj": {}
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\PRN211.MFall22\\StudentManager\\StudentManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ToaiNT\\Desktop\\Block5\\PRN211.MFall22\\StudentManager\\StudentManager.csproj": {
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\PRN211.MFall22\\StudentManager\\StudentManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\PRN211.MFall22\\StudentManager\\StudentManager.csproj",
+        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\PRN211.MFall22\\StudentManager\\StudentManager.csproj",
         "projectName": "StudentManager",
-        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\PRN211.MFall22\\StudentManager\\StudentManager.csproj",
+        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\PRN211.MFall22\\StudentManager\\StudentManager.csproj",
         "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\PRN211.MFall22\\StudentManager\\obj\\",
+        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\GV\\PRN211.MFall22\\StudentManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",
