@@ -11,7 +11,7 @@ namespace ProjectPRN.Logics
 
         public List<RollCallBook> GetStudents(int? stuId)
         {
-            List<RollCallBook> students = context.RollCallBooks.Include(x => x.Student).Where(x => x.StudentId == stuId).ToList();
+            List<RollCallBook> students = context.RollCallBooks.Include(x => x.TeachingSchedule).Include(x => x.TeachingSchedule.Room).Include(x => x.Student).Where(x => x.StudentId == stuId).ToList();
             return students;
         }
     }

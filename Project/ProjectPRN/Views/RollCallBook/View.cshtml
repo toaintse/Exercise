@@ -10,24 +10,32 @@
     <table>
         <tr>
             <th>StudentName:</th>
-            <th>ABC</th>
+            <th>@ViewBag.Stus.FirstName @ViewBag.Stus.MidName @ViewBag.Stus.LastName</th>
+        </tr>
+        <tr>
+            <th>RollNo:</th>
+            <th>@ViewBag.Stus.Roll</th>
         </tr>
     </table>
     <table border=1>
         <tr>
-            <th>Course</th>
-            <th>Teaching Date</th>
+            <th>Code</th>
             <th>Slot</th>
-            <th>Room</th>
+            <th>Date</th>
             <th>Status</th>
+            <th>Comment</th>
         </tr>
-        <tr>
-            <td></td>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
+        @foreach (RollCallBook item in ViewBag.Students)
+        {
+            <tr>
+                <td>@item.TeachingSchedule.Room.RoomCode</td>
+                <td>@item.TeachingSchedule.Slot</td>
+                <td>@(((DateTime)item.TeachingSchedule.TeachingDate).ToShortDateString())</td>
+                <td>@((item.IsAbsent) == true ? "Absent" : "Attention")</td>
+                <td>@item.Comment</td>
+                <td><a href=""><input type="button" value="Edit"></input></a></td>
+            </tr>
+        }
+        
     </table>
 </div>

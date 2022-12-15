@@ -21,7 +21,11 @@ namespace ProjectPRN.Logics
             return students;
         }
 
-        
+        public Student GetStudent(int? stuId)
+        {
+            Student student = context.Students.FirstOrDefault(x=>x.StudentId == stuId);
+            return student;
+        }
 
         public Student GetStudent(int stuId)
         {

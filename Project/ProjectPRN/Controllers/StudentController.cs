@@ -42,7 +42,6 @@ namespace ProjectPRN.Controllers
         public IActionResult DoCreate(Student student)
         {
             StudentManager studentManager = new StudentManager();
-            if (student.StudentId == 0)
                 studentManager.InsertStudent(student);
             return RedirectToAction("Index");
         }

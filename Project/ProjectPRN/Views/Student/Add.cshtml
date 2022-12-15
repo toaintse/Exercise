@@ -8,22 +8,21 @@
 
 <div>
     <form action="/Student/DoCreate" method="post">
-        <div>
-            Roll
-            <input type="text" name="student.roll" value="@(Model==null?"":Model.Roll)" />
-        </div>
-        <div>
-            FirstName
-            <input type="text" name="student.firstname" value="@(Model==null?"":Model.FirstName)" />
-        </div>
-        <div>
-            MidName
-            <input type="text" name="student.midname" value="@(Model==null?"":Model.MidName)" />
-        </div>
-        <div>
-            LastName
-            <input type="text" name="student.lastname" value="@(Model==null?"":Model.LastName)" />
-        </div>
+        <table>
+            <tr>
+                <th>Roll</th>
+                <th>FirstName</th>
+                <th>MidName</th>
+                <th>LastName</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="student.roll" value="@(Model==null?"":Model.Roll)" /></td>
+                <td><input type="text" name="student.firstname" value="@(Model==null?"":Model.FirstName)" /></td>
+                <td><input type="text" name="student.midname" value="@(Model==null?"":Model.MidName)" /></td>
+                <td><input type="text" name="student.lastname" value="@(Model==null?"":Model.LastName)" /></td>
+            </tr>
+        </table>
+        
         <div>
             <input type="Submit" value="Create New"/>
         </div>

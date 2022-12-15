@@ -15,6 +15,8 @@ namespace ProjectPRN.Controllers
             {
                 List<RollCallBook> students = rcbManager.GetStudents(stuId);
                 ViewBag.Students = students;
+                Student stus = studentManager.GetStudent(stuId);
+                ViewBag.Stus = stus;
             }
 
             return View("View");
