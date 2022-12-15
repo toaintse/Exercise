@@ -1,4 +1,6 @@
-﻿using ProjectPRN.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ProjectPRN.Models;
+using System;
 
 namespace ProjectPRN.Logics
 {
@@ -6,9 +8,11 @@ namespace ProjectPRN.Logics
     {
         APContext context = new APContext();
 
-        public List<RollCallBook> GetRCB()
+
+        public List<RollCallBook> GetStudents(int? stuId)
         {
-            return context.RollCallBooks.ToList();
+            List<RollCallBook> students = context.RollCallBooks.Include(x => x.Student).Where(x => x.StudentId == stuId).ToList();
+            return students;
         }
     }
 }

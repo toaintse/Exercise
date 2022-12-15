@@ -3,6 +3,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using System;
 using System.Security.Cryptography;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace ProjectPRN.Logics
 {
@@ -19,6 +20,8 @@ namespace ProjectPRN.Logics
                 students = students.Where(x => x.FirstName.Equals(name) || x.MidName.Equals(name) || x.LastName.Equals(name)).ToList();
             return students;
         }
+
+        
 
         public Student GetStudent(int stuId)
         {

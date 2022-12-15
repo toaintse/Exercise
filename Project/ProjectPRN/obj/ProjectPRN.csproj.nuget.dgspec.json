@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Project\\ProjectPRN\\ProjectPRN.csproj": {}
+    "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\Project\\ProjectPRN\\ProjectPRN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Project\\ProjectPRN\\ProjectPRN.csproj": {
+    "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\Project\\ProjectPRN\\ProjectPRN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Project\\ProjectPRN\\ProjectPRN.csproj",
+        "projectUniqueName": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\Project\\ProjectPRN\\ProjectPRN.csproj",
         "projectName": "ProjectPRN",
-        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Project\\ProjectPRN\\ProjectPRN.csproj",
-        "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Project\\ProjectPRN\\obj\\",
+        "projectPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\Project\\ProjectPRN\\ProjectPRN.csproj",
+        "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\Project\\ProjectPRN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
