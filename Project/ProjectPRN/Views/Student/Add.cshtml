@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using ProjectPRN.Models
+@model Student
+
+<div>
+    <form action="/Student/DoCreate" method="post">
+        <div>
+            Roll
+            <input type="text" name="student.roll" value="@(Model==null?"":Model.Roll)" />
+        </div>
+        <div>
+            FirstName
+            <input type="text" name="student.firstname" value="@(Model==null?"":Model.FirstName)" />
+        </div>
+        <div>
+            MidName
+            <input type="text" name="student.midname" value="@(Model==null?"":Model.MidName)" />
+        </div>
+        <div>
+            LastName
+            <input type="text" name="student.lastname" value="@(Model==null?"":Model.LastName)" />
+        </div>
+        <div>
+            <input type="Submit" value="Create New"/>
+        </div>
+    </form>
+
+</div>

@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using ProjectPRN.Models
+@model List<Student>
+<style>
+    .paging a {
+        margin: 2px;
+    }
+    .paging .active{
+        font-size: 1.3em;
+    }
+</style>
+
+<div>
+    @if (Model.Count > 0)
+    {
+        <h1>List all of Students</h1>
+        <a href="/Student/Add"><input  type="button" value="Add new Student"></input></a>
+            <form action="/Student/Index">
+                <table>
+                <tr>
+                    <td><div>SearchByName</div></td>
+                        <td><input type="text" name="nameSearch"></input></td>
+                    <td><a ><input type="submit" value="Search"></input></a></td>
+                </tr>
+            </table>
+        </form>
+            
+        
+        
+        
+        <table border=1>
+            <tr>
+                <th>StudentId</th>
+                <th>Roll#</th>
+                <th>FirstName</th>
+                <th>MidName</th>
+                <th>LastName</th>
+            </tr>
+            @foreach (Student s in Model)
+            {
+                        <tr>
+                            <td>@s.StudentId</td>
+                            <td>@s.Roll</td>
+                            <td>@s.FirstName</td>
+                            <td>@s.MidName</td>
+                            <td>@s.LastName</td>
+                            <td><a href="/Student/Edit?stuId=@s.StudentId"><input  type="button" value="Edit"></input></a></td>
+                            <td><a href="/Student/Delete?stuId=@s.StudentId"><input type="button" value="Delete"></input></a></td>
+                            <td><a href="/RollCallBook/ViewAtt"><input type="button" value="View Attention"></input></a></td>
+                        </tr>
+            }
+        </table>
+    }else{
+        <h1>Ko co gi</h1>
+    }
+
+    @if (ViewBag.TotalPages > 1)
+    {
+            <div class="paging">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                        <a class="@((i==ViewBag.CurPage)?"active":"")"
+           href="/Student/Index?pageIndex=@i">
+                    @i
+                        </a>
+            }
+            </div>
+    } 
+</div>

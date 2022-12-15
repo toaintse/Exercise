@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<html>
+<form action="/Student/DoEdit" method="post">
+    <h1>Edit Student Info</h1>
+    <table border=1>
+        <tr>
+            <td>
+                StudentID
+            </td>
+            <td>
+                FirstName
+            </td>
+            <td>
+                MidName
+            </td>
+            <td>
+                LastName
+            </td>
+        </tr>
+        <tr>
+        
+        <td><input readonly type="text" value="@ViewBag.Student.StudentId" name="stuId"></input></td>
+        <td><input type="text" value="@ViewBag.Student.FirstName" name="firstName"></td>
+        <td><input type="text" value="@ViewBag.Student.MidName" name="midName"></td>
+        <td><input type="text" value="@ViewBag.Student.LastName" name="lastName"></td>
+        <td><input type="submit" value="Edit" /></a> </td>
+    </tr>
+    </table>
+    
+    </form>
+</html>
