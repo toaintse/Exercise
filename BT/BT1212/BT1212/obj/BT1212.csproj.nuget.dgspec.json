@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\BT1212\\BT1212\\BT1212.csproj": {}
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\BT1212\\BT1212\\BT1212.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\BT1212\\BT1212\\BT1212.csproj": {
+    "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\BT1212\\BT1212\\BT1212.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\BT1212\\BT1212\\BT1212.csproj",
+        "projectUniqueName": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\BT1212\\BT1212\\BT1212.csproj",
         "projectName": "BT1212",
-        "projectPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\BT1212\\BT1212\\BT1212.csproj",
-        "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thanh\\OneDrive\\Desktop\\Exercise\\BT1212\\BT1212\\obj\\",
+        "projectPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\BT1212\\BT1212\\BT1212.csproj",
+        "packagesPath": "C:\\Users\\ToaiNT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ToaiNT\\Desktop\\Block5\\Git\\Exercise\\BT\\BT1212\\BT1212\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ToaiNT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

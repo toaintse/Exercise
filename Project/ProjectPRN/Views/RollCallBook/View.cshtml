@@ -10,11 +10,11 @@
     <table>
         <tr>
             <th>StudentName:</th>
-            <th>@ViewBag.Stus.FirstName @ViewBag.Stus.MidName @ViewBag.Stus.LastName</th>
+            <td>@ViewBag.Stus.FirstName @ViewBag.Stus.MidName @ViewBag.Stus.LastName</td>
         </tr>
         <tr>
             <th>RollNo:</th>
-            <th>@ViewBag.Stus.Roll</th>
+            <td>@ViewBag.Stus.Roll</td>
         </tr>
     </table>
     <table border=1>
@@ -34,6 +34,7 @@
                 <td>@((item.IsAbsent) == true ? "Absent" : "Attended")</td>
                 <td>@item.Comment</td>
                 <td><a href=""><input type="button" value="Edit"></input></a></td>
+                <td><a href=""><input type="button" value="Delete"></input></a></td>
             </tr>
         }
         
