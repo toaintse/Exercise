@@ -19,7 +19,7 @@
     </table>
     <table border=1>
         <tr>
-            <th>Code</th>
+            <th>Room</th>
             <th>Slot</th>
             <th>Date</th>
             <th>Status</th>
@@ -31,7 +31,7 @@
                 <td>@item.TeachingSchedule.Room.RoomCode</td>
                 <td>@item.TeachingSchedule.Slot</td>
                 <td>@(((DateTime)item.TeachingSchedule.TeachingDate).ToShortDateString())</td>
-                <td>@((item.IsAbsent) == true ? "Absent" : "Attention")</td>
+                <td>@((item.IsAbsent) == true ? "Absent" : "Attended")</td>
                 <td>@item.Comment</td>
                 <td><a href=""><input type="button" value="Edit"></input></a></td>
             </tr>
